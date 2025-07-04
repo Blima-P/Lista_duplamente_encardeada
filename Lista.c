@@ -6,7 +6,7 @@ Lista* criarLista() {
     Lista* l = (Lista*) malloc(sizeof(Lista));
     if (l != NULL)
         l->inicio = NULL;
-    return l;
+    return l
 }
 
 int inserirInicio(Lista* l, TipoElemento valor) {
